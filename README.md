@@ -3,13 +3,14 @@ Wordpress "Must Use" plugin template
 
 ## Introduction
 
-While Wordpress is known for very large community and a lot of available plugins, somethimes is better to avoid using plugins and use customized Wordpress functions. There are many useful WP functions out there, but sadly many websites suggest editing your themes `functions.php` file which is certanly a bad practise.
+While Wordpress is known for very large community and a lot of available plugins, somethimes is better to avoid using plugins and use customized Wordpress functions. There are many useful WP functions out there, but sadly many websites suggest editing your theme `functions.php` file which is certanly a bad practise.
 
-Creating Wordpress "functions" plugin is much better aproach, but it can cause many errors, so if you don't feel comfortable experimenting with Wordpress I reccomend you to go for some easier solutions.
+Creating Wordpress "functions" plugin is much better aproach, but it can cause many errors, so if you don't feel comfortable experimenting with Wordpress I reccomend you to go for some easier solution.
 
 Wordpress "Must-Use" plugins are a special plugins which are loaded before any other plugins on your website. Therefore, they can not use some features that regular plugins can, but they are useful for creating custom functions, and they are update-proof.
 
-For more information on this, you can read related Wordpress [support article](https://wordpress.org/support/article/must-use-plugins/)
+For more information on this, you can read related Wordpress <a href="https://wordpress.org/support/article/must-use-plugins/" target="_blank">support article</a>
+
 
 ## Installation
 This repository contain three files, which are used for customising different areas of your website. Easiest way to install it is by navigating to your `wp-content` directory and clone the repository:
@@ -44,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 /*
-  Here it goes
+  ---> Here it goes <---
 */
 require_once ABSPATH . 'wp-settings.php';
 ```
