@@ -9,6 +9,8 @@ Creating Wordpress "functions" plugin is much better aproach, but it can cause m
 
 Wordpress "Must-Use" plugins are a special plugins which are loaded before any other plugins on your website. Therefore, they can not use some features that regular plugins can, but they are useful for creating custom functions, and they are update-proof.
 
+This template should help you to get started quickly.
+
 For more information on this, you can read related Wordpress <a href="https://wordpress.org/support/article/must-use-plugins/" target="_blank">support article</a>
 
 
@@ -51,3 +53,5 @@ require_once ABSPATH . 'wp-settings.php';
 ```
 
 > To mention once again, this can completely break your website if you don't know what you are doing. Every change you want to add should be tested first and then added to production. Take backup of your website before doing this.
+
+Hope this will help someone. Have a nice day :smile:
