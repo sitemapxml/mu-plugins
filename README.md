@@ -1,9 +1,9 @@
 # Wordpress Function Plugins
-Wordpress "Must Use" plugins template
+Wordpress "Must Use" plugin template
 
 ## Introduction
 
-While Wordpress is known for very large community and a lot of available plugins, somethimes is better to avoid using plugins and use customized Wordpress functions. There are many useful WP functions out there, but sadly many website suggest editing your themes `functions.php` file which is certanly a bad practise.
+While Wordpress is known for very large community and a lot of available plugins, somethimes is better to avoid using plugins and use customized Wordpress functions. There are many useful WP functions out there, but sadly many websites suggest editing your themes `functions.php` file which is certanly a bad practise.
 
 Creating Wordpress "functions" plugin is much better aproach, but it can cause many errors, so if you don't feel comfortable experimenting with Wordpress I reccomend you to go for some easier solutions.
 
